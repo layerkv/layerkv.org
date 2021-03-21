@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: layerkv
 subtitle: ''
-description: ''
+description: 'distributed k/v system'
 keywords:
-author: John Doe
+author: layerkv team
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://layerkv.org/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,7 +97,20 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: artemis
+theme_config:
+  logo: /logo.png
+  favicon: /favicon.ico
+  google_analytics: G-QDWY9LWMGX
+  copyright:
+    since: 2021
+    name: layerkv team
+    url: https://layerkv.org/
+  menu:
+    Home: /
+    About: /about
+    GitHub: https://github.com/layerkv
+    RSS: /atom.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
